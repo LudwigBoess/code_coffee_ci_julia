@@ -26,4 +26,8 @@ function division(ar::Arithmetic)
     ar.a / ar.b
 end
 
+function modolo(ar::Arithmetic)
+    ar.a % ar.b
+end
+
 end # module
