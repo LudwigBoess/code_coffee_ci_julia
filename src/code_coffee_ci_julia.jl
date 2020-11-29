@@ -2,7 +2,8 @@ module code_coffee_ci_julia
 
 export Arithmetic,
        addition, subtraction,
-       multiplication, division
+       multiplication, division,
+       modolo
 
 
 struct Arithmetic
@@ -25,6 +26,10 @@ end
 
 function division(ar::Arithmetic)
     ar.a / ar.b
+end
+
+function modolo(ar::Arithmetic)
+    ar.a % ar.b
 end
 
 end # module
