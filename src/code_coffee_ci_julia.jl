@@ -14,6 +14,7 @@ function addition(ar::Arithmetic)
     ar.a + ar.b
 end
 
+
 function subtraction(ar::Arithmetic)
     ar.a - ar.b
 end
