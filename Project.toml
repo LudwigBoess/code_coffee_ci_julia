@@ -1,0 +1,7 @@
+name = "code_coffee_ci_julia"
+uuid = "6f029d9e-2b28-4bd4-a4b1-13876ec3ce30"
+authors = ["LudwigBoess <lboess@usm.lmu.de>"]
+version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
